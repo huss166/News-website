@@ -10,7 +10,8 @@ import { useState } from "react";
 const App = () => {
 	const pageSize = 9;
 	const apiKey = process.env.REACT_APP_NEWS_API;
-	
+	// const apiKey = import.meta.env.VITE_NEWS_API;
+
 
 
 	const [progress, setProgress] = useState(0);
